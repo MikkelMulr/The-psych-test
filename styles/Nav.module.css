@@ -17,3 +17,25 @@
 	width: 25vw;
 	background-color: #2a2a2a;
 }
+
+@media (max-width: 768px) {
+	.Nav {
+		height: 7rem;
+		width: 100vw;
+		display: flex;
+		color: #fff;
+		padding-left: 5rem;
+	}
+
+	.NavLine {
+		height: 3px;
+		width: 50vw;
+		background-color: #2a2a2a;
+	}
+}
+
+@media (max-width: 600px) {
+	.Nav {
+		display: none;
+	}
+}

@@ -16,7 +16,7 @@ export default function Home() {
 
       <section className={classes.HomeHero}>
         <SideText />
-        <Image src={heroImage} alt="Black and white skatch of undefined shapes and lines" />
+        <Image src={heroImage} alt="Black and white sketch of undefined shapes and lines" />
       </section>
 
       <section className={classes.HomeMain}>

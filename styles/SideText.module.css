@@ -4,7 +4,6 @@
 	writing-mode: vertical-rl;
 	text-orientation: mixed;
 	color: #fff;
-
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -21,4 +20,25 @@
 .SideText h1 {
 	font-size: 2rem;
 	font-weight: 200;
+}
+
+@media (max-width: 600px) {
+	.SideText {
+		height: 10vh;
+		width: 100vw;
+		writing-mode: horizontal-tb;
+		text-orientation: inherit;
+		color: #fff;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	.SideTextLine {
+		height: 20vh;
+		width: 3px;
+		background-color: #fff;
+		margin-bottom: 0px;
+	}
 }
