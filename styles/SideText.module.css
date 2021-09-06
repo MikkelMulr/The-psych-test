@@ -1,0 +1,24 @@
+.SideText {
+	height: 100vh;
+	width: 10vw;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	color: #fff;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.SideTextLine {
+	height: 50vh;
+	width: 3px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.SideText h1 {
+	font-size: 2rem;
+	font-weight: 200;
+}
