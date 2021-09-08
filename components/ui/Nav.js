@@ -6,8 +6,8 @@ export default function Nav() {
   return (
     <div className={classes.Nav}>
       <Link href='/'>Home</Link>
-      <Link href='/'>About</Link>
-      <Link href='/'>Learn More</Link>
+      <Link href='/about'>About</Link>
+      <Link href='/learnmore'>Learn More</Link>
       <div className={classes.NavLine}></div>
     </div>
   )

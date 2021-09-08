@@ -1,0 +1,22 @@
+const checklist = [
+  {qid: '01', question: 'Glibness/superficial charm'},
+  {qid: '02', question: 'Grandiose sense of self-worth'},
+  {qid: '03', question: 'Need for stimulation'},
+  {qid: '04', question: 'Pathological lying'},
+  {qid: '05', question: 'Conning/manipulative'},
+  {qid: '06', question: 'Lack of remorse or guilt'},
+  {qid: '07', question: 'Shallow affect'},
+  {qid: '08', question: 'Callous/lack of empathy'},
+  {qid: '09', question: 'Parasitic lifestyle'},
+  {qid: '10', question: 'Poor behavioral control'},
+  {qid: '11', question: 'Promiscuous sexual behavior'},
+  {qid: '12', question: 'Early behavior problems'},
+  {qid: '13', question: 'Lack of realistic goals'},
+  {qid: '14', question: 'Impulsivity'},
+  {qid: '15', question: 'Irresponsibility'},
+  {qid: '16', question: 'Failure to accept responsibility'},
+  {qid: '17', question: 'Many short-term relationships'},
+  {qid: '18', question: 'Juvenile delinquency'},
+  {qid: '19', question: 'Revocation of conditional release'},
+  {qid: '20', question: 'Criminal versatility'}
+]
